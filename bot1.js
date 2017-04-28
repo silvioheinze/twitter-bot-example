@@ -8,7 +8,15 @@ function tweeter() {
   var num = Math.floor(Math.random()*100);
   var tweet = 'Here\'s a random number between 0 and 100: ' + num;
 
-  T.post('statuses/update', { status: tweet }, tweeted);
+  T.post('statuses/update', { status: tweet }, function (error, response) {
+		if (response) {
+			console.log('Success! Check your bot, it should have retweeted something.')
+		}
+		// If there was an error with our Twitter call, we print it out here.
+		if (error) {
+			console.log('There was an error with Twitter:', error);
+		}
+	});
 }
 
 // Run the function
