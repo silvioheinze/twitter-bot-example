@@ -34,3 +34,27 @@ Run `npm install twit` in that directory. This installs some helpers we need to 
 Open the file `config.js` with your text editor and copy the keys and tokens from https://apps.twitter.com in there.
 
 Now type the following in the command line in your project directory: `node bot1.js`
+
+
+## Bot examples
+
+### bot1 - Send a tweet with a random number every hour
+
+To run, type the following in the command line in your project directory: `node bot1.js`
+
+### bot2 - Search for tweets with a hashtag and retweets the latest one
+
+To run, type the following in the command line in your project directory: `node bot2.js`
+
+### bot3 - Send a tweet mentioning another account
+
+To run, type the following in the command line in your project directory: `node bot3.js`
+
+### bot4 - Send a tweet mentioning every follower of an account
+
+To run, type the following in the command line in your project directory: `node bot4.js`
+
+
+## More ressources
+
+https://www.npmjs.com/package/twit
