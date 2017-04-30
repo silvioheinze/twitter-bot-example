@@ -1,4 +1,4 @@
-# Twitter Bot Example
+# Twitter Bot Tutorial
 
 ## Twitter
 
