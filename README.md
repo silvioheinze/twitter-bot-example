@@ -5,7 +5,7 @@
 First, you need a Twitter Account and Login Keys. In case you have
 
 Step 1: Set Up a New Account With Twitter
-Go to https://twitter.com and create a new account. In case you already have an account, use a different email adress. You can only have one account connected with it.
+Go to https://twitter.com and create a new account. In case you already have an account, use a different email address. You can only have one account connected with it.
 
 Step 2: Create a Twitter App for Your Bot
 Go to https://apps.twitter.com to get this started. Click “Create New App.”
@@ -55,6 +55,6 @@ To run, type the following in the command line in your project directory: `node 
 To run, type the following in the command line in your project directory: `node bot4.js`
 
 
-## More ressources
+## More resources
 
 https://www.npmjs.com/package/twit
