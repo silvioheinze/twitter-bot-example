@@ -57,4 +57,5 @@ To run, type the following in the command line in your project directory: `node 
 
 ## More resources
 
-https://www.npmjs.com/package/twit
+* [Twit Documentation](https://www.npmjs.com/package/twit)
+* [Twitter REST API reference](https://dev.twitter.com/rest/reference)
