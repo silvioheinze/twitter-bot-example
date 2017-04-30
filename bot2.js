@@ -18,17 +18,17 @@ function retweetLatest() {
 		// ...and then we tell Twitter we want to retweet it!
 		T.post('statuses/retweet/' + retweetId, { }, function (error, response) {
 			if (response) {
-				console.log('Success! Check your bot, it should have retweeted something.')
+				console.log('Success! Check your bot account, it should have retweeted something.')
 			}
 			// If there was an error with our Twitter call, we print it out here.
 			if (error) {
-				console.log('There was an error with Twitter:', error);
+				console.error('There was an error with Twitter:', error);
 			}
 		})
 	  }
 	  // However, if our original search request had an error, we want to print it out here.
 	  else {
-	  	console.log('There was an error with your hashtag search:', error);
+	  	console.error('There was an error with your hashtag search:', error);
 	  }
 	});
 }
